@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*************fonts (put the mfirst)*****************/
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&family=Roboto&display=swap');
+
+/*apply fonts*/
+h1,h2{
+	font-family: 'Kalam', cursive;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+
+}
+html{ 
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*****************************header area***********************/
+/*header background color, padding and center allign*/
+header{
+	background: #580102;
+	text-align: center;
+	/*padding has same shorcut as margin: top, right, bottom, left (TRBL or TB & RL)*/
+	padding: 30px 0px 30px 0px;
+	color: white;
+	
+	
+}
+
+/*****************************section*****************************/
+section{
+	/*all defalt styles for all sections*/
+	background-color:#332D2E;
+	max-width:1200px;
+	/*text color*/
+	color:white;
+	/*centers element on page*/
+	margin:0px auto;
+	padding: 30px;
+	/*this will make section size of all content in it, even these floating*/
+	overflow: hidden;
+	
+}
+
+/*overide with class - more then one element to look similer bt not all look the same*/
+.alternate{
+	background-color: #1F1C1C;
+	
+}
+section img{
+	float:left;
+	/*push text off image*/
+	margin-right: 40px;
+}
+/*****************************footer**************************/
+footer{
+	background:#580102;
+	color:white;
+	padding:25px;
+	text-align:center;
+
+}
+/**************************style links***********************************/
+/****default look*********/
+a:link{
+	color: #FB0202;
+}
+/*already viewed the link*/
+a:visited{
+	color: pink;
+}
+/*when mouse is hovoring over link*/
+a:hover{
+	color: orange;
+	/*get rid of underline*/
+	text-decoration: none;
+}
+/*pressing element*/
+a:active   {
+	color: red;
+}
+/*************************button styling********************/
+button{
+	background-color: antiquewhite;
+	padding: 16px 32px;
+	font-size: 15px;
+	/*change to pointer finger*/
+	cursor: pointer;
+	/*default border*/
+	border:2px solid antiquewhite;
+	/*transition to fade between states*/
+	transition-duration: 0.3s;
+}
+button:hover{
+	background-color:#1F1C1C;
+	color: white;
+}
+
+/***************************************nave bar******************************/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a:link {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+/*make a class that adds the sticky to nav bar*/
+.sticky{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+
