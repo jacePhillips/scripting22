@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&family=Roboto&display=swap');
+section{
+font-family: 'Kalam', cursive;
+
+}
+header{
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	background-color: #2D2D2D;
+}
+
+
+/**********header************/
+header{
+	text-align:center;
+	
+}
+
+header img{
+	margin: auto;
+	align-content: center;
+
+}
+
+
+
+h1{ 
+	background-color:black;
+	text-align: center;
+	padding:50px;
+	color: #B5E0D2;
+	
+}
+/*************trazyn bio***************/
+h{
+	background-color: #3A3E3A;
+	padding: 25px;
+	color:#B5E0D2;
+
+}
+p{
+	background-color: #3A3E3A;
+	color:#B5E0D2;
+	padding:20px;
+	margin: 0px;
+	overflow: hidden;
+}
+/***********section***********/
+section{
+	background-color: #3A3E3A;
+	max-width: 1000px;
+	color: #B5E0D2;
+	
+	/*centers element on page*/
+	margin:0px auto;
+	padding: 30px;
+	/*this will make section size of all content in it, even these floating*/
+	overflow: hidden;
+	
+}
+
+	
+
+section img{
+	float:left;
+	/*push text off image*/
+	margin-right:10px;
+	margin-left: 50px;
+	padding: 15px;
+}
+
+
+
+/*****************************footer**************************/
+footer{
+	background:#3A3E3A;
+	color:white;
+	padding:25px;
+	text-align:center;
+}
+/*********************button************************/
+button{
+	background-color: antiquewhite;
+	padding: 16px 32px;
+	font-size: 15px;
+	/*change to pointer finger*/
+	cursor: pointer;
+	/*default border*/
+	border:2px solid antiquewhite;
+	/*transition to fade between states*/
+	transition-duration: 0.3s;
+}
+button:hover{
+	background-color:#1F1C1C;
+	color: white;
+}
+	/*************************nav bar**********************/
+	
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+text-align: center;
+}
+
+nav li {
+  display:inline-block;
+}
+
+nav li a:link {
+  display: block;
+  color:#B5E0D2 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+.sticky{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+
+
