@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+header{
+	background-image: url("../images/AirdrieMainLogo.jpeg");
+	background-size:cover;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+
+#blackbox{
+	background-color: #17A2B8;
+}
+
+.imgHeight{
+	height:80vh;
+}
+
+
+.display-1{
+	font-size: 100px;
+}
+
+footer{
+	background-color:#6C757D;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	color:white;
+}
+
+a:link, a:visited{
+	color: #17A2B8;
+}
+a:hover{
+	color: #17A2B8;
+}
+
