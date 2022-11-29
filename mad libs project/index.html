@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+	<title>mad libs project</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-----my css----->
+<link rel="stylesheet" href="css/mad libs css.css">
+	
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<meta charset="utf-8">
+	
+<!---------------------------header/masthead------------------------->
+<header>
+	<div class="container">
+	<div class="row text-center text-danger p-5">
+		<div class="col-sm-12"><h1>Whats behind the door</h1></div>
+	</div>	
+</div>
+</header>	
+<!-----------------body(stuff with all the content)------------------>
+
+	<section>
+	<div class="container">
+	<div class="row text-left text-danger">
+		<div class="col-sm-7 bg-dark mx-auto p-5 rounded px-2">
+			<h3>Which words will you choose???</h3>
+			<p>Lets see if you can make a horror story more terrifiying or less. you have ten words to show off your creativity .</p>
+	
+			
+
+<!------------------------------row for the forms-------------------->
+	<form action="javascript: write();">
+		<div class="form-group">
+					   <label for="name1">Word ending with ed</label>              
+					   <input class="form-control" type="text" id="name1"> 
+					</div>
+		<div class="form-group">
+					   <label for="name2"> body part</label>              
+					   <input class="form-control" type="text" id="name2"> 
+					</div>
+		<div class="form-group">
+					   <label for="name3">spooky thing</label>              
+					   <input class="form-control" type="text" id="name3"> 
+					</div>
+		<div class="form-group">
+					   <label for="name4">not spooky thing</label>              
+					   <input class="form-control" type="text" id="name4"> 
+					</div>
+		<div class="form-group">
+					   <label for="name5">an emotion</label>              
+					   <input class="form-control" type="text" id="name5"> 
+					</div>
+		<div class="form-group">
+					   <label for="name6">if you don't know where you are </label>              
+					   <input class="form-control" type="text" id="name6"> 
+					</div>
+		<div class="form-group">
+					   <label for="name7">a place you live in</label>              
+					   <input class="form-control" type="text" id="name7"> 
+					</div>
+		<div class="form-group">
+					   <label for="name8">word ending with ly</label>              
+					   <input class="form-control" type="text" id="name8"> 
+					</div>
+		<div class="form-group">
+					   <label for="name9">a liquid</label>              
+					   <input class="form-control" type="text" id="name9"> 
+					</div>
+		<div class="form-group">
+					   <label for="name10">place where you go to the washroom</label>              
+					   <input class="form-control" type="text" id="name10"> 
+					</div>
+<!---------------------------radio button & button------------------->
+			
+<div class="form-group">
+	how scary was this story?	
+	<div class="form-check">
+		<label class= "form-check-label">
+			<input type="radio" class="form-check-input" name="poll" value="notscary">not scary
+		</label>	
+	</div>
+	
+<div class="form-check">
+		<label class= "form-check-label">
+			<input type="radio" class="form-check-input" name="poll" value="kindascary">kinda scary
+		</label>	
+	</div>
+	
+<div class="form-check">
+		<label class= "form-check-label">
+			<input type="radio" class="form-check-input" name="poll" value="scary">scary 
+		</label>
+	</div>
+<div class="form-check">
+		<label class= "form-check-label">
+			<input type="radio" class="form-check-input" name="poll" value="holyspookyscary">holy spooky scary
+		</label>	
+	</div>
+	
+<!--------------button---------------->
+	
+	
+</div><!--end of for group-->
+<button type="submit" class="btn btn-block btn-outline-danger">finish</button>
+</form>		
+</div><!--end of first column-->
+			
+<div id="finalProduct" class="col-sm-5 text-center text-white"> <!--column that will have final text-->
+	<h2><b>Lets see where your story went</b></h2>
+	
+</div>
+
+</div><!--end of forst row-->
+</div> <!------end of all body text--------->
+</section>
+	
+	
+
+	
+<!-----------------------------custom javascript--------------------->
+<script src="javascript/mad libs javascript.js"></script>
+</head>
+
+<body>
+</body>
+</html>
